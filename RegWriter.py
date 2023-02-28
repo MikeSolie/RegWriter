@@ -1,8 +1,6 @@
 ##################################################
 # Mike Solie                                     #
-# CYBR-260-40                                    #
 # 02/12/2023                                     #
-# Week 5                                         #
 # Version 1.4                                    #
 # Writing to Windows Registry                    #
 #                                                #
@@ -12,10 +10,6 @@
 # writes the time when run and current working   #
 # directory into the same key.                   #
 ##################################################
-
-# take input from user and write to reg key
-# store current time as value inside new key
-# get current working directory - dir/ls
 
 #####
 # import os - To get the curret working directory
