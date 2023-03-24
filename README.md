@@ -1,17 +1,17 @@
-## Windows Registry Key Writer
+# Windows Registry Key Writer
 This program writes user input, date and time, and the current working directory to the Windows registry. The user can define a subkey and the value to be written to that subkey.
 
-# Requirements
+## Requirements
 This program was written in Python 3 and uses the following libraries:
 
 `os`
 `winreg`
 `datetime`
 
-# How to Use
+## How to Use
 When the program is run, it will prompt the user to input a subkey and a value for that subkey. After the user inputs these values, the program will write the subkey and value to a new key in the Windows registry. The program will also write the date and time of the run and the current working directory to the same key.
 
-# How it Works
+## How it Works
 The program contains three functions:
 
 `date_time()` stores the current date and time of when the program is run and returns that value.
